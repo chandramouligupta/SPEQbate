@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "364506558857",
+    "firebase_url": "https://qbate-cb947.firebaseio.com",
+    "project_id": "qbate-cb947",
+    "storage_bucket": "qbate-cb947.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364506558857:android:6872bb66c8413d8e",
+        "android_client_info": {
+          "package_name": "com.qbate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364506558857-ca2e2jss6e1lt4bnp37qnbee51jukeq7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qbate",
+            "certificate_hash": "ae84ff33431c9f3c40d77afeb222fc4e0986a4ad"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPjg5gKJYKE16jcHqJkTW6hRZwzhs5OHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364506558857-jonje0s72dqhhsotbalnk1fmrghdhnu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

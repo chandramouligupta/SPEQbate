@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Qbate</string>
+    <string name="firebase_login">Login</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="logout">logout</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+
+    <string name="facebook_app_id">584854335366898</string>
+    <string name="fb_login_protocol_scheme">fb584854335366898</string>
+    <string name="title_activity_topic_item">TopicItem</string>
+    <string name="comment_here">Write a message</string>
+    <string name="category_name_xxx">Category Name:xxx</string>
+    <string name="topic_title">Topic Title</string>
+    <string name="add_topic">Add Topic Heading</string>
+    <string name="add_button">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="upvotes_downvote">0 Upvotes and 0 Downvote</string>
+
+    <!--    <string name="DATABASE_NAME">AppLocal.db</string>
+    <string name="TABLE_NAME">local_category</string>
+    <string name="COL1">category_id</string>
+    <string name="COL2">category_name</string> -->
+</resources>

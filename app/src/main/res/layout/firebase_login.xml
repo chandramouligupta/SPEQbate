@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    tools:context=".FirebaseLogin">
+
+    <ImageView
+        android:id="@+id/firebase_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60sp"
+        android:src="@drawable/ic_firebase_logo"
+        android:contentDescription="@string/app_name"/>
+    
+    <TextView
+        android:id="@+id/firebase_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/firebase_login"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/firebase_logo"
+        android:gravity="center"/>
+    
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firebase_text"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_login_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="75dp"
+        android:text="@string/sign_in_with_google"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:text="@string/logout"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:background="@drawable/round_bg"
+       />
+
+
+</RelativeLayout>

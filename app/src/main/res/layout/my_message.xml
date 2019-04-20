@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="10dp"
+    android:paddingRight="15dp"
+    android:paddingLeft="60dp"
+    android:clipToPadding="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_message_body"
+        android:fontFamily="@font/heebo_light"
+        android:background="@drawable/my_message"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:elevation="2dp"
+        android:textSize="18sp"
+        android:layout_alignParentRight="true"
+        android:text="Placeholder message"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_comment_time"
+        android:fontFamily="@font/heebo_light"
+        android:layout_below="@+id/my_message_body"
+        android:layout_alignParentRight="true"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        android:elevation="2dp"
+        android:textSize="8dp"
+        android:text="Comment Date and Time"  />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_upvote"
+        android:fontFamily="@font/heebo_light"
+        android:textStyle="bold"
+        android:textColor="#231F20"
+        android:layout_below="@+id/my_comment_time"
+        android:layout_toLeftOf="@id/my_downvote"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        android:elevation="2dp"
+        android:textSize="8dp"
+        android:text="Upvote:0"
+        android:visibility="visible"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_downvote"
+        android:fontFamily="@font/heebo_light"
+        android:textStyle="bold"
+        android:textColor="#231F20"
+        android:layout_below="@+id/my_comment_time"
+        android:layout_toLeftOf="@id/my_irrelevant"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        android:elevation="2dp"
+        android:textSize="8dp"
+        android:text="Downvote:0"
+        android:visibility="visible"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_irrelevant"
+        android:fontFamily="@font/heebo_light"
+        android:textStyle="bold"
+        android:textColor="#231F20"
+        android:layout_below="@+id/my_comment_time"
+        android:layout_alignParentRight="true"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        android:elevation="2dp"
+        android:textSize="8dp"
+        android:text="Irrelevant:0"
+        android:visibility="visible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_all_reply_my_message"
+        android:fontFamily="@font/heebo_light"
+        android:textStyle="bold"
+        android:textColor="#231F20"
+        android:layout_below="@+id/my_irrelevant"
+        android:layout_alignParentRight="true"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        android:elevation="2dp"
+        android:textSize="8dp"
+        android:text="View all replies"
+        android:visibility="gone"/>
+
+</RelativeLayout>
