@@ -1,7 +1,5 @@
 package com.qbate;
 
-import java.sql.Timestamp;
-
 public class CommentItem {
     private String commentId;
     private String topicId;

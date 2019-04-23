@@ -32,7 +32,7 @@ import com.google.gson.Gson;
 import java.util.ArrayList;
 
 
-public class CategoryDisplay extends AppCompatActivity {
+    public class CategoryDisplay extends AppCompatActivity {
 
     public static Context categoryDisplayContext;
     public static int counter = 1;

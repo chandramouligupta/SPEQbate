@@ -24,7 +24,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".FirebaseLogin" />
-        <activity android:name=".CategoryDisplay" />
     </application>
 
 </manifest>
