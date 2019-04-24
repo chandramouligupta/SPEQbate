@@ -28,6 +28,7 @@ public class CategoryDisplayTest {
     public void testLaunch1(){
         View v = cdContext.findViewById(R.id.category_list);
         assertNotNull(v);
+        cdContext.finish();
     }
 
     @Test
