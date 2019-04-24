@@ -27,7 +27,6 @@ public class FirebaseLoginTest {
     public void testLaunch1(){
         View v = flContext.findViewById(R.id.google_login_button);
         assertNotNull(v);
-        flContext.finish();
     }
 
     @Test
