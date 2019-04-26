@@ -43,13 +43,13 @@ public class Splash extends AppCompatActivity {
 
     void createCategoryTable(){
         ArrayList<String> categoryList = new ArrayList<String>();
-        categoryList.add("Politics");
-        categoryList.add("Science");
-        categoryList.add("Philosophy");
-        categoryList.add("Ethics");
-        categoryList.add("Religion");
-        categoryList.add("Technology");
-        categoryList.add("Education");
+        categoryList.add("Politics!");
+        categoryList.add("Science!");
+        categoryList.add("Philosophy!");
+        categoryList.add("Ethics!");
+        categoryList.add("Religion!");
+        categoryList.add("Technology!");
+        categoryList.add("Education!");
         TestDataTableCreatorFirebase.createCategoryTable(categoryList);
     }
 

@@ -16,6 +16,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -103,6 +104,7 @@ public class CommentDisplay extends AppCompatActivity {
                     CommentItem ci = new CommentItem(commentId,topicId,categoryId, username,
                             creatorId, email, timestamp, myPhoto, commentTitle);
                     dbRef.child(commentId).setValue(ci);
+                    Toast.makeText(CommentDisplay.commentsDisplayContext,"Comment Added",Toast.LENGTH_LONG).show();
                 }
             }
         });
